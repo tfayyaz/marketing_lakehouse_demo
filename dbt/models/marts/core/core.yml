@@ -19,6 +19,17 @@ models:
         description: "Festival ID"
         tests:
           - not_null
+  - name: fct_tweets_sentiment
+    description: "Tweets Sentiment Fact Table"
+    columns:
+      - name: text
+        description: "Tweet Text"
+        tests:
+          - not_null
+      - name: festival_id
+        description: "Festival ID"
+        tests:
+          - not_null
   - name: dim_festival
     description: "Festivals Dimension Table"
     columns:
