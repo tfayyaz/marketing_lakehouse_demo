@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: agg_festival_country_metrics
+    description: "Aggregated table for festival country"
+    columns:
+      - name: festival_country
+        description: "The Festival Country"
+        tests:
+          - not_null

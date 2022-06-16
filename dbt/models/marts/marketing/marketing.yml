@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: agg_campaign_metrics
+    description: "Aggregated table for campaign source & medium"
+    columns:
+      - name: medium
+        description: "The traffic medium"
+        tests:
+          - not_null
+      - name: source
+        description: "The traffic source"
+        tests:
+          - not_null

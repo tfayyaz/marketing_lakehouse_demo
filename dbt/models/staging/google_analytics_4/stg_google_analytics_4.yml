@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_campaign_events
+    description: "Events and Marketing Channels"
+    columns:
+      - name: session_medium
+        description: "The marketing medium"
+        tests:
+          - not_null
+      - name: session_source
+        description: "The marketing source"
+        tests:
+          - not_null
+      - name: event_name
+        description: "The event name"
+        tests:
+          - not_null

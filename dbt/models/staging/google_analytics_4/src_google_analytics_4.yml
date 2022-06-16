@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: marketing_google_analytics_4
+    tables:
+      - name: campaign_events

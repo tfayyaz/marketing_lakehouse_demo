@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_tweets_sentiment
+    description: "Festival Tweets with sentiment"
+    columns:
+      - name: festival_id
+        description: "The festival id"
+        tests:
+          - not_null
+      - name: text
+        description: "The tweet text"
+        tests:
+          - not_null
+      - name: sentiment
+        description: "The tweet sentiment"
+        tests:
+          - not_null

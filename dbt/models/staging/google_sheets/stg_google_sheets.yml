@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_festival_data
+    description: "Festival Data"
+    columns:
+      - name: festival_id
+        description: "The Festival Foreign Key"
+        tests:
+          - not_null

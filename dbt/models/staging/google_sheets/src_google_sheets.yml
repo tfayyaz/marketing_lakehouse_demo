@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: marketing_google_sheets
+    tables:
+      - name: festival_data
