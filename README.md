@@ -1,2 +1,2 @@
-# marketing_lakehouse_demo
-Fivetran, dbt, Power BI and John Snow Labs demo
+# Marketing Lakehouse Demo
+Databricks Lakehouse and partners demo including Fivetran, dbt, Power BI and John Snow Labs.
