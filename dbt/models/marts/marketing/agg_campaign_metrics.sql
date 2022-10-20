@@ -12,6 +12,6 @@ select
     session_medium as medium,
     sum(festival_views) as festival_views,
     sum(video_plays) as video_plays,
-    sum(tickets_link_clicked) as tickets_link_clicked
+    sum(tickets_button_clicks) as tickets_button_clicks
 from campaign_events
 group by date, source, medium

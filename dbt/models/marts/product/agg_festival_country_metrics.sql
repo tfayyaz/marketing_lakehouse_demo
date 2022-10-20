@@ -17,7 +17,7 @@ select
     f.festival_city as festival_city,
     sum(festival_views) as festival_views,
     sum(video_plays) as video_plays,
-    sum(tickets_link_clicked) as tickets_link_clicked
+    sum(tickets_button_clicks) as tickets_button_clicks
 from campaign_events as e
 inner join festivals as f
 on e.festival_id = f.festival_id
