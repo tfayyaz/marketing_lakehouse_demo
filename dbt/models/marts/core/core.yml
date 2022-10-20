@@ -8,17 +8,6 @@ models:
         description: "Festival ID foreign key"
         tests:
           - not_null
-  - name: fct_events
-    description: "Events Fact Table"
-    columns:
-      - name: event_name
-        description: "Event Name"
-        tests:
-          - not_null
-      - name: festival_id
-        description: "Festival ID"
-        tests:
-          - not_null
   - name: fct_tweets_sentiment
     description: "Tweets Sentiment Fact Table"
     columns:
