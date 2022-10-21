@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: agg_festival_country_metrics
+  - name: agg_festival_country
     description: "Aggregated table for festival country"
     columns:
       - name: festival_country
